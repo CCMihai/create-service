@@ -41,10 +41,7 @@ main {
 .box-bordered {
     border: 1px solid #dbdbdb;
     -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.03);
-    -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.03);
     box-shadow: 0 2px 2px rgba(0,0,0,0.03);
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
 }
 #new-service-container .form-horizontal {
@@ -53,6 +50,9 @@ main {
 }
 #new-service-container .form-horizontal .control-label {
 	text-align: left;
+}#new-service-container .form-group p.text-right {
+	margin-bottom: 10px;
+	font-size: 13px;
 }
 #new-service-container .form-group p {
 	margin-bottom: 0;
@@ -104,9 +104,15 @@ main {
 	left: 10px;
 }
 #new-service-container .submit-btn {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin: 0 auto;
 }
 #new-service-container .list-inline {
@@ -121,9 +127,15 @@ main {
 	padding-left: 0;
 }
 #new-service-container .img-container .radio {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-bottom: 20px !important;
 }
 #new-service-container .img-container .col-xs-6 {
