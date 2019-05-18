@@ -70,6 +70,7 @@ main {
 	height: 1px;
 	background-color: #dbdbdb;
 	margin: 20px 0;
+	clear: both;
 }
 #new-service-container .form-group {
 	margin-bottom: 25px;
@@ -151,6 +152,10 @@ main {
 #new-service-container .media-container {
 	position: relative;
 }
+#new-service-container .media-container .media-section-title {
+	margin-bottom: 15px;
+	padding-left: 15px;
+}
 #new-service-container .media-container audio {
 	width: 100%;
 	max-width: 250px;
@@ -221,7 +226,11 @@ main {
 	width: 100px;
 	margin: 5px auto;
 }
-
+#new-service-container .audio-modal {
+	/*display: flex;
+	align-items: center;
+	opacity: 1; */
+}
 @media (max-width: 768px) {
 	#new-service-container .extras-title {
 		margin-bottom: 25px;
@@ -241,6 +250,9 @@ main {
 
 }
 @media (max-width: 576px) {
+	.media-container .col-xs-6 {
+		width: 100%;
+	}
 	.navbar-fixed-bottom, 
 	.navbar-fixed-top,
 	.fixed {
